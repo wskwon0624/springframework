@@ -310,6 +310,29 @@
 				</div>
 			</div>
 		</div>
+		
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="heading12">
+				<button
+					class="accordion-button ${chNum == 'ch12' ? '' : 'collapsed'}"
+					type="button" data-bs-toggle="collapse"
+					data-bs-target="#collapse12" aria-expanded="false"
+					aria-controls="collapse12">Ch12. 관리객체 생성</button>
+			</h2>
+			<div id="collapse12"
+				class="accordion-collapse collapse ${chNum == 'ch12' ? 'show' : ''}"
+				aria-labelledby="heading12" data-bs-parent="#accordionExample">
+				<div class="accordion-body">
+					<ul>
+						<li><a href="${pageContext.request.contextPath}/ch12/createBeanByXml">xml 설정으로 관리 빈 생성</a></li>
+						<li><a href="${pageContext.request.contextPath}/ch12/createBeanByAnnotation">Annotation으로 관리 빈 생성</a></li>
+						<li><a href="${pageContext.request.contextPath}/ch12/diByXml">xml 설정으로 관리 빈의 의존성 주입</a></li>	
+						<li><a href="${pageContext.request.contextPath}/ch12/diByAnnotation">Annotation으로 관리 빈의 의존성 주입</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
 	</div>
 </body>
 </html>

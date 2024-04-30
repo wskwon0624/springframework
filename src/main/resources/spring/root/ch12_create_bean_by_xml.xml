@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean name="ch12Service1"
+		class="com.mycompany.springframework.service.Ch12Service1"/>
+
+<bean name="ch12Service2"
+	class="com.mycompany.springframework.service.Ch12Service2"
+	factory-method="getInstance">
+</bean>
+
+</beans>
