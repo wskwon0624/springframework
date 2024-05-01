@@ -127,6 +127,15 @@ public class Ch03Controller {
 		return "ch03/getDto";
 	}
 	
+	@RequestMapping("/getDto2")
+	public String getDto2(@ModelAttribute Ch03Dto dto, Model model) {
+		
+		log.info("run");
+		model.addAttribute("chNum","ch03");
+		
+		return "ch03/getDto2";
+	}
+	
 	@RequestMapping("/ajax")
 	public String ajax(Model model) {
 		
@@ -147,5 +156,6 @@ public class Ch03Controller {
 		jo.put("param5", dto.getParam5());
 		
 		return jo.toString();
+	
 	};
 }

@@ -105,6 +105,9 @@
 						<li><a
 							href="${pageContext.request.contextPath}/ch03/getDto?param1=string&param2=5&param3=3.14&param4=true&param5=2024-4-15">Get
 								Dto</a></li>
+						<li><a
+							href="${pageContext.request.contextPath}/ch03/getDto2?param1=string&param2=5&param3=3.14&param4=true&param5=2024-4-15">Get
+								Dto2</a></li>
 						<li><a href="${pageContext.request.contextPath}/ch03/ajax">Ajax</a></li>
 					</ul>
 				</div>
@@ -304,13 +307,12 @@
 				aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
 				<div class="accordion-body">
 					<ul>
-						<li><a
-							href="${pageContext.request.contextPath}/ch11/no">국제화</a></li>
+						<li><a href="${pageContext.request.contextPath}/ch11/no">국제화</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="accordion-item">
 			<h2 class="accordion-header" id="heading12">
 				<button
@@ -324,15 +326,43 @@
 				aria-labelledby="heading12" data-bs-parent="#accordionExample">
 				<div class="accordion-body">
 					<ul>
-						<li><a href="${pageContext.request.contextPath}/ch12/createBeanByXml">xml 설정으로 관리 빈 생성</a></li>
-						<li><a href="${pageContext.request.contextPath}/ch12/createBeanByAnnotation">Annotation으로 관리 빈 생성</a></li>
-						<li><a href="${pageContext.request.contextPath}/ch12/diByXml">xml 설정으로 관리 빈의 의존성 주입</a></li>	
-						<li><a href="${pageContext.request.contextPath}/ch12/diByAnnotation">Annotation으로 관리 빈의 의존성 주입</a></li>
+						<li><a
+							href="${pageContext.request.contextPath}/ch12/createBeanByXml">xml
+								설정으로 관리 빈 생성</a></li>
+						<li><a
+							href="${pageContext.request.contextPath}/ch12/createBeanByAnnotation">Annotation으로
+								관리 빈 생성</a></li>
+						<li><a href="${pageContext.request.contextPath}/ch12/diByXml">xml
+								설정으로 관리 빈의 의존성 주입</a></li>
+						<li><a
+							href="${pageContext.request.contextPath}/ch12/diByAnnotation">Annotation으로
+								관리 빈의 의존성 주입</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
-		
+
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="heading13">
+				<button
+					class="accordion-button ${chNum == 'ch13' ? '' : 'collapsed'}"
+					type="button" data-bs-toggle="collapse"
+					data-bs-target="#collapse13" aria-expanded="false"
+					aria-controls="collapse13">Ch13.Database link</button>
+			</h2>
+			<div id="collapse13"
+				class="accordion-collapse collapse ${chNum == 'ch13' ? 'show' : ''}"
+				aria-labelledby="heading13" data-bs-parent="#accordionExample">
+				<div class="accordion-body">
+					<ul>
+						<li><a
+							href="${pageContext.request.contextPath}/ch13/writeBoardForm">Write
+								Board Form(no attach)</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
 	</div>
 </body>
 </html>

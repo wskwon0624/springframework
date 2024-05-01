@@ -12,6 +12,7 @@
 		<config>src/main/resources/spring/dispatcher/ch11.xml</config>
 		<config>src/main/resources/spring/root/ch12_create_bean_by_xml.xml</config>
 		<config>src/main/resources/spring/root/ch12_properties.xml</config>
+		<config>src/main/resources/spring/root/ch13_mybatis.xml</config>
 		<config>src/main/resources/spring/root/ch13_datasource.xml</config>
 	</configs>
 	<autoconfigs>
