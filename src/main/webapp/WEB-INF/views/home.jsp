@@ -7,9 +7,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Insert title here</title>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">	
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+		<link href="${pageContext.request.contextPath}resources/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">	
+		<script src="${pageContext.request.contextPath}resources/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+		<script src="${pageContext.request.contextPath}resources/jquery/jquery-3.7.1.min.js"></script>
 	</head>
 	<body>
 		<div class="d-flex flex-column vh-100 ">

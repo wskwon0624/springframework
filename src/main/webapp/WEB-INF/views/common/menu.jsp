@@ -357,12 +357,69 @@
 					<ul>
 						<li><a
 							href="${pageContext.request.contextPath}/ch13/writeBoardForm">Write
-								Board Form(no attach)</a></li>
+								Board Form</a></li>
+						<li><a
+							href="${pageContext.request.contextPath}/ch13/boardList">Board
+								List</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="heading15">
+				<button
+					class="accordion-button ${chNum == 'ch15' ? '' : 'collapsed'}"
+					type="button" data-bs-toggle="collapse"
+					data-bs-target="#collapse15" aria-expanded="false"
+					aria-controls="collapse15">Ch15.Transaction</button>
+			</h2>
+			<div id="collapse15"
+				class="accordion-collapse collapse ${chNum == 'ch15' ? 'show' : ''}"
+				aria-labelledby="heading15" data-bs-parent="#accordionExample">
+				<div class="accordion-body">
+					<ul>
+						<li><a
+							href="${pageContext.request.contextPath}/ch15/accountList">AccountList
+								and fransfer</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="heading17">
+				<button
+					class="accordion-button ${chNum == 'ch17' ? '' : 'collapsed'}"
+					type="button" data-bs-toggle="collapse"
+					data-bs-target="#collapse17" aria-expanded="false"
+					aria-controls="collapse17">Ch17.Spring Security</button>
+			</h2>
+			<div id="collapse17"
+				class="accordion-collapse collapse ${chNum == 'ch17' ? 'show' : ''}"
+				aria-labelledby="heading17" data-bs-parent="#accordionExample">
+				<div class="accordion-body">
+					<ul>
+						<li><a
+							href="${pageContext.request.contextPath}/ch17/loginForm">Login
+								form</a></li>
+						<li><a
+							href="${pageContext.request.contextPath}/ch17/authorityCheck">Authority
+								Check</a></li>
+
+						<li><a
+							href="${pageContext.request.contextPath}/ch17/userInfo">Login
+								User Info</a></li>
+						<li><a
+							href="${pageContext.request.contextPath}/ch17/joinForm">Join Form
+								</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
+	<script>
+		
+	</script>
 </body>
 </html>
